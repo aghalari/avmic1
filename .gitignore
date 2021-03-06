@@ -6,3 +6,7 @@ db.sqlite3
 
 # Virtual Env
 venv/
+avmicpy/__pycache__/
+
+# Migrations
+avmic/migrations/
