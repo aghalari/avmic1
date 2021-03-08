@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  avmicpy_postgresql:
+    image: postgres:12
+    container_name: avmicpy_postgresql
+    volumes:
+      - avmicpy_postgresql:/var/lib/postgresql/data
+    restart: always
+    env_file: .env
+    ports:
+      - "5432:5432"
+    networks:
+      - avmicpy_network
+
+volumes:
+  avmicpy_postgresql:
+    external: true
+
+networks:
+  avmicpy_network:
+    external: true
+
