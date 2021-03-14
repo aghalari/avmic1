@@ -1,0 +1,17 @@
+/* ============================================================
+
+Template Name: MARS - Responsive Coming Soon
+Author: Marwa El-Manawy -- http://elmanawy.info
+Description: MARS - Responsive Coming Soon
+Version: 1.0
+
+===============================================================
+*/
+@media( max-width:992px) 
+{
+    .header-social-media {
+        position: unset;
+        margin: 20px 0;
+    }
+}
+
